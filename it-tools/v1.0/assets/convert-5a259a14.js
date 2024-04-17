@@ -1,0 +1,1 @@
+function n(o,B=2){if(o===0)return"0 字节";const t=1024,a=["字节","KB","MB","GB","TB","PB","EB","ZB","YB"],r=Math.floor(Math.log(o)/Math.log(t));return`${Number.parseFloat((o/t**r).toFixed(B))} ${a[r]}`}export{n as f};

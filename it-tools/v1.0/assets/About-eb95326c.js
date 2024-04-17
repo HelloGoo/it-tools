@@ -1,0 +1,1 @@
+import{d as a,u as n,a as s,c,_ as m,o as r}from"./index-2e588a01.js";const d=a({__name:"About",setup(_){const{t:o}=n();return s({title:"关于 - "+o("home.coreTitle")}),(t,u)=>{const e=m;return r(),c(e,{markdown:t.$t("about.content"),"mx-auto":"","mt-50px":"","max-w-600px":""},null,8,["markdown"])}}});export{d as default};
